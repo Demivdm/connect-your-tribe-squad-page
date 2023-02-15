@@ -1,31 +1,84 @@
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+# Connect your tribe visitekaartje
+
+![image](https://user-images.githubusercontent.com/112861166/218084287-f2bcbcac-240e-45ba-8ad4-4f685097e1b8.png)
+
+Dit project omvat een visitekaartje.
 
 ## Inhoudsopgave
 
-  * [Beschrijving](#beschrijving)
-  * [Kenmerken](#kenmerken)
-  * [Installatie](#installatie)
-  * [Gebruik](#gebruik)
-  * [Bronnen](#bronnen)
-  * [Licentie](#licentie)
+
+* [Beschrijving](https://github.com/Demivdm/connect-your-tribe-profile-card#beschrijving) 
+
+* [Kenmerken](https://github.com/Demivdm/connect-your-tribe-profile-card#kenmerken) 
+
+* [Installatie](https://github.com/Demivdm/connect-your-tribe-profile-card#installatie)
+
+* [MoSCoW checklist](https://github.com/Demivdm/connect-your-tribe-profile-card#-moscow-checklist)
+
+* [Licentie](https://github.com/Demivdm/connect-your-tribe-profile-card#licentie)
+
+
 
 ## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+
+Op deze pagina kun informatie over mij vinden.
 
 ## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+
+Dit project is gemaakt met HTML, CSS en Javascript. Verder staat hieronder een korte lijst met gebruikte tools en middelen.
+
+**Tools**
+
+🖥️ Visual Studio Code
+
+🔥 Figma
+
+✍ Pen, papier en tekentablet
+
+📒Node.js
+
+**Gebruikte technieken**
+
+📟 HTML
+
+⌚ CSS
+
+🗼Javascript
 
 ## Installatie
-<!-- Bij Installatie staat stap-voor-stap beschreven hoe je de development omgeving moet inrichten om aan de repository te kunnen werken. -->
 
-## Gebruik
+1. Clone of download deze respository.
+2. Ga naar de root directory van het project.
+3. Open het index.html bestand, hierdoor wordt de homepagina van de website geopend.
 
-## Bronnen
+## 🎩 MoSCoW checklist
+
+**Must have**
+  
+  ✅Mobiele versie
+  
+  ✅Desktop versie
+  
+  ✅blokken met informatie
+  
+  ✅Foto van mezelf
+  
+  ❌ contact knop
+
+**Should have**
+
+  ❌Js popup
+
+**Could have**
+
+  ❌knippert pijltje naar contact knop
+
+**Won't have**
+
+  🦸‍♀️Nothing is impossible
+
+_tip!_ check mijn [issues](https://github.com/Demivdm/connect-your-tribe-profile-card/issues) om te kijken waar ik momenteel mee bezig ben.
 
 ## Licentie
 

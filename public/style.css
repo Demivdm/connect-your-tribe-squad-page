@@ -1,0 +1,110 @@
+*{
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+.phone-background-container{
+  max-width: 25rem;
+  width: 100%;
+  position: relative;
+  background-color: lightblue;
+  margin: 0 auto;
+  border-radius:50px;
+  border: 8px solid black;
+  box-shadow: 15px 10px 50px black;
+ 
+
+}
+
+ul{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding:2em ;
+}
+
+li{
+  list-style-type: none;
+ width: 104px;
+
+}
+
+.list-item-images{
+  height: 50px;
+  width: 50px;
+  background-color: lightpink;
+  border-radius: 8px;
+  display: flex;
+  margin: 0 auto;
+ 
+  
+}
+p{
+  text-align: center;
+}
+
+
+
+.middle-header{
+  background-color: lightgreen;
+  margin: 0 5em 1em 5em;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+.middle-profile-picture{
+  display: flex;
+  height: 30rem;
+  margin: 0 auto;
+  border-radius: 1rem;
+}
+
+.bottom-bar{
+  background-color: lightpink;
+  position: absolute;
+  bottom: 0;
+  height: 5em;
+  max-width: 30rem;
+  width: 100%;
+}
+
+.contact-button{
+  width: 50px;
+  left: 50%;
+  top: 2em;
+  transform: translate(-50%, -50%);
+  position: relative;
+}
+
+/* Pop up */
+
+.popup{
+  background-color: blue;
+  position: absolute;
+  width: 20rem;
+  top: 4rem;
+ left: 2rem;
+  border-radius: 20px;
+  
+  display: none;
+  
+
+
+}
+
+.text-alignment{
+  margin: 0 auto;
+  text-align: center;
+  top: .5rem;
+  position: relative;
+}
+
+
+.closeButton{
+  font-size: 50px;
+  margin: 0 auto;
+  position: absolute;
+  left: 85%;
+  cursor: pointer;
+}

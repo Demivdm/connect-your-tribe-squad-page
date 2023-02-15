@@ -1,0 +1,109 @@
+<%- include('./partials/head') %>
+
+   
+  <section class="phone-background-container">
+
+    <ul>
+      <li class="active-popup" id="popup-1" onclick="openPopup()"><img class="list-item-images" src="images/info.png" alt=""><p>Wie ben ik?</p>
+      
+      </li>
+      
+    
+      </li>
+      <li><img class="list-item-images" src="images/home-page.png" alt=""><p>Woonplaats</p>
+        
+      </li>
+     
+      <li><img class="list-item-images" src="images/joystick.png" alt=""><p>Hobby's</p>
+       
+      
+      </li>
+      
+      <li><img class="list-item-images" src="images/island.png" alt=""><p>Ambities</p>
+        
+      </li>
+      <li><img class="list-item-images" src="images/laugh.png" alt=""><p>Woordgrappen</p>
+        
+      </li>
+      <li><img class="list-item-images" src="images/competence.png" alt=""><p>Skills</p>
+        
+      </li>
+    </ul>
+
+    <!-- pop up containers -->
+    <div class="popup">
+      
+        <p  class="closeButton" id="close" onclick="closePopup()">&times</p>
+      <h2  class="text-alignment">Wie ben ik?</h2>
+      <p class="text-alignment">Hoi! Aangenaam kennis te maken. Mijn naam is Demi en ik ben 23 jaar. Afgelopen september ben ik begonnen aan de opleiding FDND. Ik ben super enthousiast om zoveel mogelijk te leren. Niet alleen op school maar ook daarbuiten ben ik gek op leren. Door developer te worden hoop ik dan ook dat ik mezelf mijn hele leven door verder kan ontwikkelen.</p>
+   
+    </div> 
+
+    <div class="popup" id="pop-up1" onclick="openPopup()" id="popup-tekst" onclick="openPopup()">
+      
+        <p  class="closeButton" onclick="closePopup()">&times</p>
+      <h2  class="text-alignment">Waar kom ik vandaan?</h2>
+      <p class="text-alignment">Ik ben veel verhuisd waardoor ik opgegroeid bent Nieuw-vennep, Hoofddorp en Amsterdam.Momenteel woon ik in Amsterdam-noord. </p>
+            
+   
+    </div>  
+
+    <div class="popup" id="pop-up1" onclick="togglePopup()">
+      
+        <p  class="closeButton" onclick="togglePopup()">&times</p>
+      <h2  class="text-alignment">Mijn Hobby's</h2>
+      <p class="text-alignment">Ik heb heel veel hobbies en vind veel dingen leuk. Helaas kan ik niet altijd de tijd vinden om al mijn hobbies uit te voeren. Ik vind het leuk om creatief bezig te zijn, te gamen en te longboarden</p>
+   
+    </div> 
+
+    <div class="popup" id="pop-up1" onclick="togglePopup()">
+      
+        <p  class="closeButton" onclick="togglePopup()">&times</p>
+      <h2  class="text-alignment">Mijn ambities</h2>
+      <p class="text-alignment">In de toekomst zou ik graag in de winters in Spanje willen wonen. Ik hou niet van kou(zonder sneeuw) en het is mij nooit warm genoeg. Ik wil goed worden in programmeren en naast front end ook een backend taal erbij leren.</p>
+    
+    </div>
+    
+    <div class="popup active-popup" >
+      
+        <p  class="closeButton" onclick="togglePopup()">&times</p>
+      <h2  class="text-alignment">Woordgrappen</h2>
+      <ul class="jokes-list">
+        <li>Hoe noem je het als ik ga emigreren? Demigreren</li>
+        <li>Hoe noem je het als ik dement wordt? Dan ben ik Demiterend</li>
+      </ul>
+   
+    </div>  
+
+    <div class="popup" id="pop-up1" onclick="togglePopup()">
+      
+        <p  class="closeButton" onclick="closeForm()">&times</p>
+      <h2  class="text-alignment">Skills</h2>
+      <ul>
+        <li>Ik kan 3D printen en een klein beetje 3D ontwerpen in Autocad</li>
+        <li>Basis kennis van html en css</li>
+      </ul> 
+     
+    </div> 
+  
+  
+
+    <!-- end pop up containers -->
+<div class="middle-header">
+  <h1> <%= member.name +
+    " "+ member.prefix + " " + member.surname%>  </h1>
+  </div>
+
+  <img class="middle-profile-picture" src="images/SB-Demi.jpg" alt="">
+  <div class="bottom-bar">
+    <img class="contact-button" src="images/standby.png" alt="">
+  </div>
+  </section>
+    
+        
+         
+        
+        
+
+
+<%- include('./partials/foot') %>
