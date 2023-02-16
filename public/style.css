@@ -1,110 +1,164 @@
 *{
   box-sizing: border-box;
+  
+}
+body{
+  background-image: linear-gradient( #008fb3,  #b3ffff
+  );
   overflow-x: hidden;
 }
-.phone-background-container{
-  max-width: 25rem;
-  width: 100%;
+
+header{
+  display: flex;
   position: relative;
-  background-color: lightblue;
-  margin: 0 auto;
-  border-radius:50px;
-  border: 8px solid black;
-  box-shadow: 15px 10px 50px black;
- 
-
-}
-
-ul{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin: 0 auto;
-  padding:2em ;
-}
-
-li{
-  list-style-type: none;
- width: 104px;
-
-}
-
-.list-item-images{
-  height: 50px;
-  width: 50px;
-  background-color: lightpink;
-  border-radius: 8px;
-  display: flex;
-  margin: 0 auto;
+  flex-direction: row;
  
   
 }
-p{
-  text-align: center;
+
+.headerFont{
+  font-size: 7rem;
+  margin: 0;
+}
+
+header > h2{
+  margin: 0;
+  font-size: 6rem;
+}
+
+header > input{
+  margin: 40px 19px 19px 0;
+  height: 3rem;
+  width: 5rem;
+}
+
+.mediumFont{
+  
+  
+  font-size: 2.5rem;
+  margin-left: 1.5rem;
+}
+
+/* THIS BEAUTY IS ONLY TEMPORARY FOR NOW */
+
+@media (min-width:800px){
+  .tempCenter{
+    position: relative;
+    left: calc(50% - 10%);
+  }
 }
 
 
-
-.middle-header{
-  background-color: lightgreen;
-  margin: 0 5em 1em 5em;
-  border-radius: 8px;
-  display: flex;
-  justify-content: center;
+/* variables */
+:root{
+  --hexGreen: green;
+  --hexRed: red;
+  --hexYellow: yellow;
+}
+.hexGreen {
+ 
+  margin: 4rem 0 0 7rem;
+  width: 208px;
+  height: 120px;
+  background-color: var(--hexGreen);
+  border-color: var(--hexGreen);
+  position: relative;
+  display: inline-block;
+  
 }
 
-.middle-profile-picture{
-  display: flex;
-  height: 30rem;
-  margin: 0 auto;
-  border-radius: 1rem;
-}
-
-.bottom-bar{
-  background-color: lightpink;
+.hexGreen:before {
+  content: " ";
+  width: 0; 
+  height: 0;
+  border-bottom: 60px solid;
+  border-color: inherit;
+  border-left: 104px solid transparent;
+  border-right: 104px solid transparent;
   position: absolute;
-  bottom: 0;
-  height: 5em;
+  top: -60px;
+}
+.hexGreen:after {
+  content: "";
+  width: 0;
+  position: absolute;
+  bottom: -60px;
+  border-top: 60px solid;
+  border-color: inherit;
+  border-left: 104px solid transparent;
+  border-right: 104px solid transparent;
+}
+
+.hexRed {
+  margin: 4rem 0 0 7rem;
+  
+  width: 208px;
+  height: 120px;
+  background-color: var(--hexRed);
+  border-color: var(--hexRed);
+  position: relative;
+  display: inline-block;
+}
+
+.hexRed:before {
+  content: " ";
+  width: 0;
+   height: 0;
+  border-bottom: 60px solid;
+  border-color: inherit;
+  border-left: 104px solid transparent;
+  border-right: 104px solid transparent;
+  position: absolute;
+  top: -60px;
+}
+.hexRed:after {
+  content: "";
+  width: 0;
+  position: absolute;
+  bottom: -60px;
+  border-top: 60px solid;
+  border-color: inherit;
+  border-left: 104px solid transparent;
+  border-right: 104px solid transparent;
+}
+
+.hexYellow {
+  z-index: 1;
+  margin-top: 4rem;
+  width: 208px;
+  height: 120px;
+  background-color: var(--hexYellow);
+  border-color: var(--hexYellow);
+  position: relative;
+  display: inline-block;
+}
+
+.hexYellow:before {
+  content: " ";
+  width: 0; 
+  height: 0;
+  border-bottom: 60px solid;
+  border-color: inherit;
+  border-left: 104px solid transparent;
+  border-right: 104px solid transparent;
+  position: absolute;
+  top: -60px;
+}
+.hexYellow:after {
+  content: "";
+  width: 0;
+  position: absolute;
+  bottom: -60px;
+  border-top: 60px solid;
+  border-color: inherit;
+  border-left: 104px solid transparent;
+  border-right: 104px solid transparent;
+}
+
+
+.hexWrapper{
   max-width: 30rem;
   width: 100%;
-}
-
-.contact-button{
-  width: 50px;
-  left: 50%;
-  top: 2em;
-  transform: translate(-50%, -50%);
   position: relative;
-}
-
-/* Pop up */
-
-.popup{
-  background-color: blue;
-  position: absolute;
-  width: 20rem;
-  top: 4rem;
- left: 2rem;
-  border-radius: 20px;
   
-  display: none;
-  
-
-
-}
-
-.text-alignment{
-  margin: 0 auto;
-  text-align: center;
-  top: .5rem;
-  position: relative;
-}
-
-
-.closeButton{
-  font-size: 50px;
-  margin: 0 auto;
-  position: absolute;
-  left: 85%;
-  cursor: pointer;
 }
