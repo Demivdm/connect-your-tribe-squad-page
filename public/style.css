@@ -155,6 +155,39 @@ header > input{
   border-right: 104px solid transparent;
 }
 
+.hexSolo {
+  z-index: 1;
+  margin-top: 12rem;
+  width: 416px;
+  height: 240px;
+  background-color: var(--hexGreen);
+  border-color: var(--hexGreen);
+  position: relative;
+  display: inline-block;
+  display: none;
+}
+
+.hexSolo:before {
+  content: " ";
+  width: 0; 
+  height: 0;
+  border-bottom: 120px solid;
+  border-color: inherit;
+  border-left: 208px solid transparent;
+  border-right: 208px solid transparent;
+  position: absolute;
+  top: -120px;
+}
+.hexSolo:after {
+  content: "";
+  width: 0;
+  position: absolute;
+  bottom: -120px;
+  border-top: 120px solid;
+  border-color: inherit;
+  border-left: 208px solid transparent;
+  border-right: 208px solid transparent;
+}
 
 .hexWrapper{
   max-width: 30rem;

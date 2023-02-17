@@ -6,7 +6,7 @@ import express, { response } from 'express'
 // variabelen
 const app = express()
 
-const url = ('https://whois.fdnd.nl/api/v1/member/demi-van-der-maarl')
+const url = ('https://whois.fdnd.nl/api/v1/squad')
 
 const data = await fetch (url).then((response) => response.json())
 
@@ -24,9 +24,13 @@ app.use(express.static('public'))
 
 
 // Maak een route voor de index
-app.get('/', function (req, res) {
-  // res.send('Hello World!')
-  res.render('index',data)
+app.get('/', (request, response) => {
+  console.log(request.query.squad)
+
+  
+  fetchJson(squadUrl).then((data) => {
+    response.render('index', data)
+  })
 })
 
 // Stel het poortnummer in waar express op gaat luisteren
