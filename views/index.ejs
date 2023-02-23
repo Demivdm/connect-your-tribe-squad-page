@@ -1,28 +1,41 @@
+
 <%- include('./partials/head') %>
-<div class="tempCenter">
+<header>
   <h1>FDND Squadpage</h1>
-  <h2 class="headerFont">Pick a</h2>
-  <header>
-    <input type="color" />
-    <h2>color</h2>
+  <h2>Pick a squad</h2>
   </header>
-  <h2 class="mediumFont">Get to know us</h2>
 
-  <div class="hexWrapper">
-    <!-- start hexagon color picker -->
-    <button class="hexGreen" onclick="openPopup()"></button>
+ <section class="wrapper">
+    <nav class="mobile-nav straight-nav">
+        <button class="nav-home-position-A nav-second-screen-position-A">A</button>
+        <button class="nav-home-position-B nav-second-screen-position-B">B</button>
+        <button class="nav-home-position-C nav-second-screen-position-C">C</button>
+    </nav>
+ </section>
 
-    <div class="hexYellow"></div>
-    <div class="hexRed"></div>
+ <section class="hex-wrapper">
+  <article>
+  
+ 
 
-    <!-- end hexagon color picker -->
+  <% squad.members.forEach(member => { %>
+    <div class="hexagon">
+    <h2><%= member.name %> <%= member.prefix %> <%= member.surname %></h2>
+    
 
-    <!-- start individual hexagon -->
+      <% if (member.avatar) { %>
+      <img src="<%= member.avatar %>" alt="De avatar van <%= member.name %>" />
+      <% }else{ %>
+      <img src="/placeholder.jpg" alt="Placeholder avatar" />
+      <% } %>
+    
+    </article>
+    <% }) %>
+  
+ </div>
+</section>
 
-    <div class="hexSolo"><h2></h2></div>
-
-    <!-- end individual hexagon -->
-  </div>
-</div>
+</body>
+</html>
 
 <%- include('./partials/foot') %>
