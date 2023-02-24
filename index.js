@@ -1,21 +1,22 @@
-// Importeer express uit de node_modules map
+// Dit importeert express uit de node_modules map
 import express from 'express'
 
-// Maak een nieuwe express app aan
+// Dit een een variabel die de standaard functies van express ophaalt
 const app = express()
 
-// Stel ejs in als template engine en geef de 'views' map door
+// Dit zorgt ervoor dat ejs als template wordt gebruikt en de html uit de map views wordt opgehaald
 app.set('view engine', 'ejs')
 app.set('views', './views')
 
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
-// Gebruik de map 'public' voor statische resources
+// Dit haalt de css op uit de public map
 app.use(express.static('public'))
 
-// Maak een route voor de index
+// Hier maak je een route voor de index en je vraagt of de code een / achter de url wilt zetten. 
 app.get('/', function (request, response) {
+  // Daarna geef je met een variabele aan wat de url inhoudt.
   const url = 'https://whois.fdnd.nl/api/v1/members'
   fetchJson(url).then((data) => {
     response.render('index', data)
@@ -24,19 +25,19 @@ app.get('/', function (request, response) {
 
 
 
-  fetchJson(url, headers).then((data) => {
-    response.redirect(303, '/')
-  })
 
 
-// Stel het poortnummer in waar express op gaat luisteren
+
+// Je stelt het poort nummer in. Dit is een door cyclic gekozen poort of 8000 lokaal.
 app.set('port', process.env.PORT || 8000)
 
 // Start express op, haal het ingestelde poortnummer op
 app.listen(app.get('port'), function () {
-  // Toon een bericht in de console en geef het poortnummer door
+  // console log laat het volgende bericht in de terminal zien met het poortnummer erbij.
   console.log(`Application started on http://localhost:${app.get('port')}`)
 })
+
+// ik weet nog niet zo goed hoe alles onder deze comment werkt
 
 /**
  * Wraps the fetch api and returns the response body parsed through json

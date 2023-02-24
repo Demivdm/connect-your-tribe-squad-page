@@ -1,4 +1,5 @@
 
+<!-- Dit voegt de header toe aan de rest index.ejs -->
 <%- include('./partials/head') %>
 <header>
   <h1>FDND Squadpage</h1>
@@ -17,12 +18,12 @@
   <article>
   
  
-
-  <% squad.members.forEach(member => { %>
+<!-- Met deze loop wordt de juiste data uit de api geselecteerd -->
+  <% members.forEach(member => { %>
     <div class="hexagon">
     <h2><%= member.name %> <%= member.prefix %> <%= member.surname %></h2>
     
-
+<!-- Als er een avatar is toegevoegd dan wordt deze geselecteerd. Als er geen avatar is geselcteerd dan wordt de foto vervangen door de placeholder -->
       <% if (member.avatar) { %>
       <img src="<%= member.avatar %>" alt="De avatar van <%= member.name %>" />
       <% }else{ %>
@@ -37,5 +38,5 @@
 
 </body>
 </html>
-
+<!-- Dit is om te footer ook bij bestand te voegen -->
 <%- include('./partials/foot') %>
