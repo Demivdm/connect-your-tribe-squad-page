@@ -11,7 +11,7 @@ Dit is een overzichtspagina voor alle squads van FDND. Op deze pagina kan je op 
 
 * [Installatie](https://github.com/Demivdm/connect-your-tribe-squad-page/blob/main/README.md#installatie)
 
-* [MoSCoW checklist](https://github.com/Demivdm/Plant-swap-Buurtcampus-Oost/blob/main/README.md#-moscow-checklist)
+* [MoSCoW checklist](https://github.com/Demivdm/connect-your-tribe-squad-page/blob/main/README.md#-moscow-checklist)
 
 * [Licentie](https://github.com/Demivdm/connect-your-tribe-squad-page/blob/main/README.md#licentie)
 
