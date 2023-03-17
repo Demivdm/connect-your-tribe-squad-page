@@ -1,6 +1,4 @@
-# Stekjesbieb Buurtcampus oost
-
-![website-example-responsive](https://user-images.githubusercontent.com/112861166/225738613-230e0c56-e80e-4ceb-a8fe-7c4f19be00c7.jpg)
+# Connect your tribe squad page
 
 Dit is een overzichtspagina voor alle squads van FDND. Op deze pagina kan je op het moment squad A bekijken. De pagina is gefocust op wat de favoriete kleur van de studenten is.
 
