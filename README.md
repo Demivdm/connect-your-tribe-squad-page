@@ -78,7 +78,7 @@ Dit project is gemaakt met HTML, CSS en Javascript. Verder staat hieronder een k
 
   🦸‍♀️Nothing is impossible
 
-_tip!_ check mijn [issues](https://github.com/Demivdm/Plant-swap-Buurtcampus-Oost/issues) om te kijken waar ik momenteel mee bezig ben.
+_tip!_ check mijn [issues](https://github.com/Demivdm/connect-your-tribe-squad-page/issues) om te kijken waar ik momenteel mee bezig ben.
 
 ## Licentie
 
