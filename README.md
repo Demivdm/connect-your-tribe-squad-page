@@ -5,15 +5,15 @@ Dit is een overzichtspagina voor alle squads van FDND. Op deze pagina kan je op 
 ## Inhoudsopgave
 
 
-* [Beschrijving](https://github.com/Demivdm/Plant-swap-Buurtcampus-Oost/blob/main/README.md#beschrijving) 
+* [Beschrijving](https://github.com/Demivdm/connect-your-tribe-squad-page/blob/main/README.md#beschrijving) 
 
-* [Kenmerken](https://github.com/Demivdm/Plant-swap-Buurtcampus-Oost/blob/main/README.md#kenmerken) 
+* [Kenmerken](https://github.com/Demivdm/connect-your-tribe-squad-page/blob/main/README.md#kenmerken) 
 
-* [Installatie](https://github.com/Demivdm/Plant-swap-Buurtcampus-Oost/blob/main/README.md#installatie)
+* [Installatie](https://github.com/Demivdm/connect-your-tribe-squad-page/blob/main/README.md#installatie)
 
 * [MoSCoW checklist](https://github.com/Demivdm/Plant-swap-Buurtcampus-Oost/blob/main/README.md#-moscow-checklist)
 
-* [Licentie](https://github.com/Demivdm/Plant-swap-Buurtcampus-Oost/blob/main/README.md#licentie)
+* [Licentie](https://github.com/Demivdm/connect-your-tribe-squad-page/blob/main/README.md#licentie)
 
 
 
