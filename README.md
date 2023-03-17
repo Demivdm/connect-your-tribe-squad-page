@@ -1,28 +1,29 @@
+# Stekjesbieb Buurtcampus oost
 
-# Connect your tribe visitekaartje
+![website-example-responsive](https://user-images.githubusercontent.com/112861166/225738613-230e0c56-e80e-4ceb-a8fe-7c4f19be00c7.jpg)
 
-![image](https://user-images.githubusercontent.com/112861166/218084287-f2bcbcac-240e-45ba-8ad4-4f685097e1b8.png)
-
-Dit project omvat een visitekaartje.
+Dit is een overzichtspagina voor alle squads van FDND. Op deze pagina kan je op het moment squad A bekijken. De pagina is gefocust op wat de favoriete kleur van de studenten is.
 
 ## Inhoudsopgave
 
 
-* [Beschrijving](https://github.com/Demivdm/connect-your-tribe-profile-card#beschrijving) 
+* [Beschrijving](https://github.com/Demivdm/Plant-swap-Buurtcampus-Oost/blob/main/README.md#beschrijving) 
 
-* [Kenmerken](https://github.com/Demivdm/connect-your-tribe-profile-card#kenmerken) 
+* [Kenmerken](https://github.com/Demivdm/Plant-swap-Buurtcampus-Oost/blob/main/README.md#kenmerken) 
 
-* [Installatie](https://github.com/Demivdm/connect-your-tribe-profile-card#installatie)
+* [Installatie](https://github.com/Demivdm/Plant-swap-Buurtcampus-Oost/blob/main/README.md#installatie)
 
-* [MoSCoW checklist](https://github.com/Demivdm/connect-your-tribe-profile-card#-moscow-checklist)
+* [MoSCoW checklist](https://github.com/Demivdm/Plant-swap-Buurtcampus-Oost/blob/main/README.md#-moscow-checklist)
 
-* [Licentie](https://github.com/Demivdm/connect-your-tribe-profile-card#licentie)
+* [Licentie](https://github.com/Demivdm/Plant-swap-Buurtcampus-Oost/blob/main/README.md#licentie)
 
 
 
 ## Beschrijving
 
-Op deze pagina kun informatie over mij vinden.
+User stories uitwerken op basis van dynamische data uit een API. Vertrekpunt is een overzichtspagina van de FDND opleiding, met hierin alle drie de squads.
+
+Userstory: Als gebruiker wil ik een overzichtspagina met alle squads van FDND.
 
 ## Kenmerken
 
@@ -44,13 +45,15 @@ Dit project is gemaakt met HTML, CSS en Javascript. Verder staat hieronder een k
 
 ⌚ CSS
 
-🗼Javascript
-
 ## Installatie
 
-1. Clone of download deze respository.
-2. Ga naar de root directory van het project.
-3. Open het index.html bestand, hierdoor wordt de homepagina van de website geopend.
+1. Installeer NodeJS
+2. Clone of download deze respository.
+3. Open de terminal
+4. Voer npm install uit (of npm i) in de terminal
+5. Wanneer alles is geinstalleerd, voer npm start uit.
+6. De applicatie wordt gehost op http://localhost:8000/
+
 
 ## 🎩 MoSCoW checklist
 
@@ -58,27 +61,26 @@ Dit project is gemaakt met HTML, CSS en Javascript. Verder staat hieronder een k
   
   ✅Mobiele versie
   
-  ✅Desktop versie
-  
-  ✅blokken met informatie
-  
-  ✅Foto van mezelf
-  
-  ❌ contact knop
+  ❌Desktop versie
+ 
 
 **Should have**
 
-  ❌Js popup
+  ❌Squad B en C
+    
+  ❌Filter
+  
+  ❌Favoriete kleur uit api
 
 **Could have**
 
-  ❌knippert pijltje naar contact knop
+  ❌Flip animatie
 
 **Won't have**
 
   🦸‍♀️Nothing is impossible
 
-_tip!_ check mijn [issues](https://github.com/Demivdm/connect-your-tribe-profile-card/issues) om te kijken waar ik momenteel mee bezig ben.
+_tip!_ check mijn [issues](https://github.com/Demivdm/Plant-swap-Buurtcampus-Oost/issues) om te kijken waar ik momenteel mee bezig ben.
 
 ## Licentie
 
