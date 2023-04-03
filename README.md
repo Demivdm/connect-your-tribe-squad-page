@@ -1,5 +1,7 @@
 # Connect your tribe squad page
 
+![squadpage screenshot](https://user-images.githubusercontent.com/112861166/229462069-3d81f042-1ed1-41b4-8b0a-037f6b9eef52.png)
+
 Dit is een overzichtspagina voor alle squads van FDND. Op deze pagina kan je op het moment squad A bekijken. De pagina is gefocust op wat de favoriete kleur van de studenten is.
 
 ## Inhoudsopgave
